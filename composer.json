@@ -1,0 +1,19 @@
+{
+    "name": "geokongo/go-ip-info",
+    "description": "This WordPress plugins enables you fetch and display IP address information from the IP2Location API",
+    "type": "plugin",
+    "license": "GNU",
+    "autoload": {
+        "psr-4": {
+            "GOIPInfo\\": "includes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Geoffrey Okongo",
+            "email": "code@geokongo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
