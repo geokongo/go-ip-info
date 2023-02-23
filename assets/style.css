@@ -1,0 +1,49 @@
+* {
+    /* Change your font family */
+    font-family: sans-serif;
+}
+
+.go-ip-info-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+}
+
+.go-ip-info-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.go-ip-info-table th,
+.go-ip-info-table td {
+    padding: 12px 15px;
+}
+
+.go-ip-info-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.go-ip-info-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.go-ip-info-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.go-ip-info-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+/* Set the size of the div element that contains the map */
+#go-ip-info-map {
+    height: 200px; /* The height is 400 pixels */
+    width: 100%; /* The width is the width of the web page */
+  }
