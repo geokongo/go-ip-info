@@ -47,10 +47,6 @@ window.initMap = initMap;
     </tr>
     <tr>
         <th colspan="2" rowspan="2" id="go-ip-info-map">
-            <script>
-                user.lat = 67.712792;
-                user.lng = -45.006065;
-            </script>
         </th>
     </tr>
     <tr>
