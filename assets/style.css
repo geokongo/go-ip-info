@@ -1,8 +1,3 @@
-* {
-    /* Change your font family */
-    font-family: sans-serif;
-}
-
 .go-ip-info-table {
     border-collapse: collapse;
     margin: 25px 0;
@@ -46,4 +41,4 @@
 #go-ip-info-map {
     height: 200px; /* The height is 400 pixels */
     width: 100%; /* The width is the width of the web page */
-  }
+}
