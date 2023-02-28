@@ -54,7 +54,7 @@ class Callbacks extends Base {
     
         }
 
-        $content = file_get_contents("$this->plugin_path/templates/user.php");
+        $content = file_get_contents("$this->plugin_path/templates/result.php");
         $content = sprintf($content,$dat['latitude'],$dat['longitude'],$dat['ip_address'],$dat['country_name'],$dat['region_name'],$dat['city_name'],$dat['isp']);
         
         return $content;
