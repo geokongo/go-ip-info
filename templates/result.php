@@ -17,8 +17,13 @@ function initMap() {
 window.initMap = initMap;
 
 </script>
+<style> 
+.entry-title, .wp-block-post-title {
+    display: none;
+    }
+</style>
 
-<div class="wrap">
+<div class="go-ip-info-div">
     <table class="go-ip-info-table">
     <thead>
         <tr>
